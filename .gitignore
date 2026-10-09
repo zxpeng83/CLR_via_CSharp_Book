@@ -1,0 +1,30 @@
+# 仅阅读资料包：工具、提取底稿、账本、核验/迁移过程及中间产物不入库
+/整理版/整理记录/**
+/GitHub原文快照/CLR_via_CSharp-main/resources/SourceCodes/
+/GitHub原文快照/CLR_via_CSharp-main.zip
+
+# 第30章正文直接显示的原书图：只保此文件和必要祖先目录
+!/整理版/整理记录/验证工作区/
+!/整理版/整理记录/验证工作区/第30章/
+!/整理版/整理记录/验证工作区/第30章/原书重点页/
+!/整理版/整理记录/验证工作区/第30章/原书重点页/book-P720.png
+
+# 系统、IDE 与 Python 缓存；不按文档/图片/网页资源后缀笼统排除
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vs/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.swp
+*.swo
+
+# 原书大PDF仅保留本地；避免进入GitHub main历史
+/CLR via C#(第4版).pdf
+
+# 本地原始HTML含网页缓存签名地址；不随Git阅读包发布，原文件保留
+/笔记/第26章笔记/对话1/web/鹏鹏鹏和元宝的对话.html
